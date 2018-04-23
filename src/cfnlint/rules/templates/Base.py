@@ -36,7 +36,8 @@ class Base(CloudFormationLintRule):
         'Mappings',
         'Conditions',
         'Rules',
-        'Transform'
+        'Transform',
+        'Globals'
     ]
 
     required_keys = [
